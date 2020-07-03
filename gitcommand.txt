@@ -1,0 +1,98 @@
+    2  git version
+    3  git status
+    4  git add
+    5  git global user.name "kushal agarwal"
+    6  cd
+    7  cd /m
+    8  ls
+    9  cd git/
+   10  ls
+   11  git config  --list
+   12  git clone https://github.com/kushal7041/git-test.git
+   13  cd ..
+   14  cd git/
+   15  ls
+   16  cd git-test/
+   17  git init
+   18  git status
+   19  ls
+   20  git add inner.html
+   21  git status
+   22  git commit -m "" firstcommit
+   23  git commit -m "firstcommit"
+   24  git commit -m "firstcommit" inner.html
+   25  git push -u origin master
+   26  node -v
+   27  node --v
+   28  node -v
+   29  node -v
+   30  npm -v
+   31  npm init
+   32  npm init
+   33  cd ..
+   34  cd ..
+   35  cd ..
+   36  cd c
+   37  npm -v
+   38  npm init
+   39  cd m/
+   40  cd ..
+   41  cd m/
+   42  cd git/
+   43  cd git-test/
+   44  npm -v
+   45  ls
+   46  git --version
+   47  pwd
+   48  ls
+   49  la -a
+   50  ls -a
+   51  cd m/
+   52  cd desktop
+   53  cd ..
+   54  cd new volume m;
+   55  cd desktop
+   56  mkdir fullstackdev
+   57  ls
+   58  cd fullstackdev/
+   59  touch full_stack.txt
+   60  echo "full stack developer" > full_stack.txt
+   61  cat full_stack.txt
+   62  echo "html and css" >> full_stack.txt
+   63  cat full_stack.txt
+   64  nano full_stack.txt
+   65  cat full_stack.txt
+   66  nano data.txt
+   67  ls
+   68  rm data.txt
+   69  ls
+   70  clear
+   71  git init
+   72  git status
+   73  git add full_stack.txt
+   74  git status
+   75  git commit -m "first commit"
+   76  git config --global user.email 'kushalagarwal262@gmail.com'
+   77  git config --global user.name 'kushalagarwal-Ak'
+   78  git config user.email
+   79  git config user.name
+   80  nano full_stack.txt
+   81  git status
+   82  git add full_stack.txt
+   83  git status
+   84  git commit -m "second commit"
+   85  git log
+   86  ls
+   87  mkdir full-stack
+   88  ls
+   89  git remote add full-stack https://github.com/kushal7041/full-stack
+   90  git remote show
+   91  git remote -v
+   92  git pull full-stack master
+   93  git pull full-stack master
+   94  git pull full-stack master
+   95  git push -u full-stack
+   96   git push --set-upstream full-stack master
+   97   git push --set-upstream full-stack master
+   98  history
+   99  history 98 > gitcommand.txt
