@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function myfun() {
+            var v,a,c, b,status=200;
+            a = document.getElementById("txtusername").value;
+            v = document.getElementById("id").value;
+            b = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
+            c = /^[A-Za-z]{6}$/;
+
+            if ( b.test(v)) {
+                window.alert(" 200 sucess");
+            }
+           else if (b.test(v) < 6) {
+                window.alert("201 Invalid Password length should be 6 ");
+            }
+            else{
+                window.alert("202 password should have 1 number and 1 character");
+            }
+           if(c.test(b)==(a-z)){
+               window.alert("200 success");
+           }
+            else{
+                window.alert("203  Failure: only characters allowed in username");
+            }
+        }
+   
+        
+
+    </script>
+</head>
+
+<body>
+    ENTER USERNAME: <input type="text" id="txtusername" placeholder="username" style="text-align: center;">
+    ENTER PASSWORD: <input type="password" id="id" placeholder="PASSWORD" style="text-align: center;">
+    <br><br>
+
+    <br><br><br><br>
+    <button type="button" onclick="myfun()">Validate Password</button>
+
+</body>
+
+</html>
