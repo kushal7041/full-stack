@@ -10,20 +10,18 @@
             b = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
             c = /^[A-Za-z]{6}$/;
 
-            if ( b.test(v)) {
+            if ( b.test(v) || c.test(a) )  {
                 window.alert(" 200 sucess");
             }
-           else if (b.test(v) < 6) {
+           else if (b.test(v) <=  6)  {
                 window.alert("201 Invalid Password length should be 6 ");
+            }
+           
+         else if (c.test(b) == /^[0-9]$/) { 
+                window.alert("203  Failure: only characters allowed in username");
             }
             else{
                 window.alert("202 password should have 1 number and 1 character");
-            }
-           if(c.test(b)==(a-z)){
-               window.alert("200 success");
-           }
-            else{
-                window.alert("203  Failure: only characters allowed in username");
             }
         }
    
